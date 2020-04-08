@@ -67,7 +67,7 @@ header ul li a {
 
 #slider {
 	position: relative;
-	margin-top: 150px;
+	margin-top: 190px;
 }
 
 #slider-nav {
@@ -356,6 +356,16 @@ input, textarea{
 footer {
 	padding: 20px;
 }
+@media screen and (min-width: 200px){
+	#slider{
+		margin-top: 197px;
+	}
+}
+@media screen and (min-width: 254px){
+	#slider{
+		margin-top: 155px;
+	}
+}
 
 @media screen and (min-width: 576px){
 	header img{
@@ -406,6 +416,10 @@ footer {
 	header ul li:hover, .active-menu{
 		border-top: 3px solid #5CADD3;
 		padding-top: 27px;
+	}
+
+	#slider{
+		margin-top: 80px;
 	}
 
 	.item-slider p,
