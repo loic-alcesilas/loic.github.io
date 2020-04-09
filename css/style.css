@@ -6,6 +6,12 @@ body {
 	color: #3a3a3a;
 }
 
+.item-slider p,
+.item-slider h1,
+.item-slider input{
+	display: none;
+}
+
 .underline-title + p{
 	padding:10px;
 }
@@ -59,15 +65,9 @@ header ul li a {
 	width: 100%;
 }
 
-.item-slider p,
-.item-slider h1,
-.item-slider input {
-	display: none;
-}
-
 #slider {
 	position: relative;
-	margin-top: 190px;
+	margin-top: 150px;
 }
 
 #slider-nav {
@@ -360,16 +360,55 @@ footer {
 	#slider{
 		margin-top: 197px;
 	}
+
+	#presentation h1{
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	#presentation div h1 span{
+		color: #5cadd3;
+	}
+
+	#presentation p{
+		margin-top: 8px;
+		font-size: 15px;
+	}
+
+	#presentation input{
+		margin-top: 10px;
+		margin-right: 140px;
+		background-color: #5cadd3;
+		padding: 10px;
+		border-radius: 3px;
+		border: transparent;
+		box-shadow: 0px 2px 0px #4494bb;
+		color: white;
+		font-size: 1em;
+		width: 48%;
+	}
+
 }
 @media screen and (min-width: 254px){
 	#slider{
 		margin-top: 155px;
+	}
+
+	#presentation input{
+		width:  36%;
+		margin-left: 10px;
+
 	}
 }
 
 @media screen and (min-width: 576px){
 	header img{
 		padding: 10px;
+	}
+
+	#presentation input{
+		width: 18%;
+		margin-left: 10px;
 	}
 
 	#services img {
@@ -418,8 +457,14 @@ footer {
 		padding-top: 27px;
 	}
 
+	#presentation h1,
+	#presentation p,
+	#presentation input{
+		display: none;
+	}
+
 	#slider{
-		margin-top: 80px;
+		margin-top: 100px;
 	}
 
 	.item-slider p,
